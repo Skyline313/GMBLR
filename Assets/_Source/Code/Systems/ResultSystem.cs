@@ -13,6 +13,7 @@ namespace _Source.Code.Systems
         public override void OnStateEnter()
         {
             screen.CoinsText.SetText(game.CoinsPerRound.ToString());
+            player.Coins += game.CoinsPerRound;
         }
     }
 }

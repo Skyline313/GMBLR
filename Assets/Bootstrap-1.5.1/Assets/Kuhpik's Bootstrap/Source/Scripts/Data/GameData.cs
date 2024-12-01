@@ -3,6 +3,7 @@ using UnityEngine;
 using NaughtyAttributes;
 using System.Collections;
 using System.Collections.Generic;
+using _Source.Code.Components;
 
 namespace Kuhpik
 {
@@ -14,5 +15,14 @@ namespace Kuhpik
     {
         public int CoinsPerRound;
         public GameStateID Game;
+
+        public int Bet;
+        public LevelComponent Level;
+        public LevelComponent[] Levels;
+        public float FirstGameWinChance;
+        public int CurrentRow;
+        
+        public SecondGameLevelComponent SecondLevel;
+        public SecondGameLevelComponent[] SecondLevels;
     }
 }

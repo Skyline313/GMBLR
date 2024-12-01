@@ -12,3 +12,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a0bbf493a6018b41b94c2288283a11a, type: 3}
   m_Name: Game Config
   m_EditorClassIdentifier: 
+  FirstGameChance:
+  - 30
+  - 20
+  - 10
+  FirstGameSprites:
+  - {fileID: 21300000, guid: 66967c20520ab44b6a1bdff8ca93cd6c, type: 3}
+  - {fileID: 21300000, guid: 8b4baeb6d49a14c2da8c266bd30ab88c, type: 3}
+  - {fileID: 21300000, guid: 8a524457b677c4c0c954a75889a84c2d, type: 3}
+  WinMultipliers:
+  - 1
+  - 1.5
+  - 2
+  - 2.5
+  - 3
+  - 3.5
+  - 4
+  - 4.5
+  SecondGameSprites:
+  - {fileID: 21300000, guid: 0574ca91d29e14442ac4641805caedbd, type: 3}
+  - {fileID: 21300000, guid: 0574ca91d29e14442ac4641805caedbd, type: 3}
+  - {fileID: 21300000, guid: a0c4d3a7c45054150a7867db8b094bb5, type: 3}
