@@ -9,6 +9,7 @@ using System;
 using System.Linq;
 using System.Text.RegularExpressions;
 using System.Text;
+using Kuhpik;
 using Newtonsoft.Json.Linq;
 using Unity.Advertisement.IosSupport;
 using Unity.Services.PushNotifications;
@@ -158,19 +159,23 @@ public class AllScripts : MonoBehaviour, IAppsFlyerConversionData
 
     public void StartGame()
     {
-        loader.SetActive(false);
+        //loader.SetActive(false);
         StartGameBtn();
     }
 
     public void StartGameBtn()
     {
-        SceneManager.LoadScene(_levelName);
+        Bootstrap.Instance.ChangeGameState(GameStateID.Menu);
+
+        //SceneManager.LoadScene(_levelName);
     }
 
     public void StartGameAction()
     {
         PlayerPrefs.SetInt("gdfg456", 1);
-        SceneManager.LoadScene(_levelName);
+        //SceneManager.LoadScene(_levelName);
+        Bootstrap.Instance.ChangeGameState(GameStateID.Menu);
+
     }
 
     private void Awake()
