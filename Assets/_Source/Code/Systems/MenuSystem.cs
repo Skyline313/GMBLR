@@ -34,7 +34,7 @@ namespace _Source.Code.Systems
                 screen.GameImage.sprite = SecondGameSprite;
                 screen.ChangeGameButton.image.sprite = SecondGameButtonSprite;
                 screen.ChangeGameButton.image.rectTransform.anchoredPosition = new Vector2(-415,-215);
-                screen.GameInfoText.SetText("WOLF GAME");
+                screen.GameInfoText.SetText("Howl Run");
             }
             else
             {
@@ -42,7 +42,7 @@ namespace _Source.Code.Systems
                 screen.GameImage.sprite = FirstGameSprite;
                 screen.ChangeGameButton.image.sprite = FirstGameButtonSprite;
                 screen.ChangeGameButton.image.rectTransform.anchoredPosition = new Vector2(415,-215);
-                screen.GameInfoText.SetText("BOMB GAME");
+                screen.GameInfoText.SetText("Moon Claw");
             }
         }
     }
